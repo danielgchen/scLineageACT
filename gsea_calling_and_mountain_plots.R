@@ -4,7 +4,7 @@
 library(msigdbr)
 print(paste0('MSigDb Version: ', packageVersion("msigdbr")))
 # > gather gene sets
-categories <- c("H", "C2", "C5", "C6", "C7", "C8")
+categories <- c("H", "C2", "C5", "C6", "C7")
 gene_sets <- c()  # instantiate list of all gene sets
 msigdbr_t2gs <- c()
 for (category in categories) {
